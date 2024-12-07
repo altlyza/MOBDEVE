@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "696048657317",
+    "project_id": "r-u-g-2794b",
+    "storage_bucket": "r-u-g-2794b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696048657317:android:3024bc18a655dd38fa3e4c",
+        "android_client_info": {
+          "package_name": "com.mobdeve.xx22.pascualreynadojaime.mco.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7Mo94cbVEi1xNbDGiR2P4EZbiR9JKcrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
