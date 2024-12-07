@@ -68,8 +68,10 @@ public class LoginActivity extends AppCompatActivity {
 
         // Handle register link click
         findViewById(R.id.registerLink).setOnClickListener(v -> {
-            startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
+            Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+            startActivity(intent);
         });
+
     }
 
     /**
