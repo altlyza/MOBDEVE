@@ -45,7 +45,7 @@ public class ProfileActivity extends AppCompatActivity {
 
         // Initialize RecyclerView for reserved bars
         RecyclerView reservedBarsRecyclerView = findViewById(R.id.reservedBarsRecyclerView);
-        reservedBarsRecyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+        reservedBarsRecyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
 
         // Load reservations and set up the adapter
         List<Reservation> reservations = loadUserReservations(email);

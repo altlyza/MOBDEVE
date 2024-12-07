@@ -3,13 +3,13 @@
 
     <item
         android:id="@+id/nav_explore"
-        android:icon="@drawable/ic_add"
+        android:icon="@drawable/explore"
         android:title="Explore"
         app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/nav_profile"
-        android:icon="@drawable/ic_profile"
+        android:icon="@drawable/profile"
         android:title="Profile"
         app:showAsAction="ifRoom" />
 

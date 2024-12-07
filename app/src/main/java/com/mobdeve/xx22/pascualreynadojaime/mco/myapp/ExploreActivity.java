@@ -49,23 +49,6 @@ public class ExploreActivity extends AppCompatActivity {
         postAdapter = new PostAdapter(this, postList);
         recyclerView.setAdapter(postAdapter);
 
-        // Set up FAB to show a dialog for selecting post type
-        binding.fab.setOnClickListener(view -> {
-            AlertDialog.Builder builder = new AlertDialog.Builder(ExploreActivity.this);
-            builder.setTitle("Create Post")
-                    .setItems(new CharSequence[]{"Event Post", "Normal Post"}, (dialog, which) -> {
-                        Intent intent = new Intent(ExploreActivity.this, CreatePostActivity.class);
-                        if (which == 0) {
-                            intent.putExtra("POST_TYPE", "Event");
-                            Toast.makeText(ExploreActivity.this, "Creating Event Post", Toast.LENGTH_SHORT).show();
-                        } else if (which == 1) {
-                            intent.putExtra("POST_TYPE", "Normal");
-                            Toast.makeText(ExploreActivity.this, "Creating Normal Post", Toast.LENGTH_SHORT).show();
-                        }
-                        startActivity(intent);
-                    });
-            builder.show();
-        });
 
         // Initialize BottomNavigationView
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);

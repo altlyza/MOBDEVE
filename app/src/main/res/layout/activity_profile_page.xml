@@ -53,40 +53,6 @@
                 android:textColor="@color/white"
                 android:textSize="14sp" />
 
-            <!-- Events Section -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/event1"
-                    android:layout_width="0dp"
-                    android:layout_height="100dp"
-                    android:layout_marginEnd="8dp"
-                    android:layout_weight="1"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/ic_apotheka" />
-
-                <ImageView
-                    android:id="@+id/event2"
-                    android:layout_width="0dp"
-                    android:layout_height="100dp"
-                    android:layout_marginEnd="8dp"
-                    android:layout_weight="1"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/ic_clubhouse" />
-
-                <ImageView
-                    android:id="@+id/event3"
-                    android:layout_width="0dp"
-                    android:layout_height="100dp"
-                    android:layout_weight="1"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/ic_lankwai" />
-            </LinearLayout>
-
             <!-- Reserved Bars Header -->
             <TextView
                 android:id="@+id/reservedBarsHeader"
@@ -115,7 +81,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="?android:attr/windowBackground"
+        android:background="#E0218A"
         app:menu="@menu/menu_main" />
 
 </RelativeLayout>
